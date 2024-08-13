@@ -1,0 +1,43 @@
+﻿  CPU.cpp
+C:\Users\noah\Desktop\GameboyEmulator\src\CPU.cpp(21,71): warning C4244: 'argument': conversion from '_Rep' to 'unsigned int', possible loss of data
+          with
+          [
+              _Rep=std::chrono::system_clock::rep
+          ]
+C:\Users\noah\Desktop\GameboyEmulator\src\CPU.cpp(64,39): warning C4244: '=': conversion from 'std::streamsize' to 'int', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\CPU.cpp(503,22): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+  main.cpp
+  opcodes.cpp
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(49,21): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(114,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(116,8): warning C4552: '+': result of expression not used
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(177,21): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(198,19): warning C4244: 'initializing': conversion from 'uint16_t' to 'int8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(246,39): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(272,19): warning C4244: 'initializing': conversion from 'uint16_t' to 'int8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(323,21): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(360,19): warning C4244: 'initializing': conversion from 'uint16_t' to 'int8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(415,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(417,8): warning C4552: '+': result of expression not used
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(430,19): warning C4244: 'initializing': conversion from 'uint16_t' to 'int8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(489,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(505,19): warning C4244: 'initializing': conversion from 'uint16_t' to 'int8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(557,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1515,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1579,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1653,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1719,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1745,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1777,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1830,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1841,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1871,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1873,12): warning C4244: 'argument': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1908,20): warning C4244: '=': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+C:\Users\noah\Desktop\GameboyEmulator\src\opcodes.cpp(1926,17): warning C4244: 'initializing': conversion from 'uint16_t' to 'uint8_t', possible loss of data
+  Generating Code...
+CPU.obj : error LNK2001: unresolved external symbol "public: static bool CPU::IME" (?IME@CPU@@2_NA)
+opcodes.obj : error LNK2001: unresolved external symbol "public: static bool CPU::IME" (?IME@CPU@@2_NA)
+C:\SDL\SDL2-2.30.4\lib\x86\SDL2.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\SDL\SDL2-2.30.4\lib\x86\SDL2main.lib : warning LNK4272: library machine type 'x86' conflicts with target machine type 'x64'
+C:\Users\noah\Desktop\GameboyEmulator\x64\Debug\GameboyEmulator.exe : fatal error LNK1120: 1 unresolved externals
